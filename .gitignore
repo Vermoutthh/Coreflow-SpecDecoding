@@ -1,0 +1,15 @@
+.trash/
+**/raw_logs/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.env
+.env
+.env.*

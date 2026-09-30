@@ -1,0 +1,64 @@
+{
+  "workflows_total": 8,
+  "workflows_completed": 8,
+  "requests_completed": 194,
+  "requests_failed": 0,
+  "wall_seconds": 88.06159784272313,
+  "workflow_completions_per_second": 0.09084550128522419,
+  "arrival_rate_workflows_per_second": 0.15,
+  "p50_workflow_e2e_seconds": 29.495707351714373,
+  "p95_workflow_e2e_seconds": 84.96399608254433,
+  "p95_admission_wait_seconds": 0.00020373612642288208,
+  "agents": {
+    "Plan": {
+      "requests": 73,
+      "requests_per_second": 0.8289651992276708,
+      "generated_tokens": 2980,
+      "p95_request_e2e_seconds": 1.5420530326664448,
+      "p95_ttft_seconds": 0.09566546976566315,
+      "context_bins": {
+        "0-1024": {
+          "requests": 38,
+          "p95_request_e2e_seconds": 1.2460101433098316
+        },
+        "1024-2048": {
+          "requests": 17,
+          "p95_request_e2e_seconds": 2.5011117979884148
+        },
+        "2048-4096": {
+          "requests": 16,
+          "p95_request_e2e_seconds": 2.5512427911162376
+        },
+        "4096-8192": {
+          "requests": 2,
+          "p95_request_e2e_seconds": 0.18526311591267586
+        }
+      }
+    },
+    "Task": {
+      "requests": 121,
+      "requests_per_second": 1.3740382069390158,
+      "generated_tokens": 11126,
+      "p95_request_e2e_seconds": 3.8109334260225296,
+      "p95_ttft_seconds": 0.08655847609043121,
+      "context_bins": {
+        "0-1024": {
+          "requests": 42,
+          "p95_request_e2e_seconds": 3.781528066843748
+        },
+        "1024-2048": {
+          "requests": 31,
+          "p95_request_e2e_seconds": 3.500025477260351
+        },
+        "2048-4096": {
+          "requests": 35,
+          "p95_request_e2e_seconds": 3.8109334260225296
+        },
+        "4096-8192": {
+          "requests": 13,
+          "p95_request_e2e_seconds": 3.948003936558962
+        }
+      }
+    }
+  }
+}

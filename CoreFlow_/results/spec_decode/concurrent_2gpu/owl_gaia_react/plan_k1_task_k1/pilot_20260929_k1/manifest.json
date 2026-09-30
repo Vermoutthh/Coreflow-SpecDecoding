@@ -1,0 +1,63 @@
+{
+  "selection": {
+    "selection_unit": "workflow",
+    "workflow_selection": "random",
+    "source_workflows": 100,
+    "eligible_complete_workflows": 84,
+    "excluded_over_capacity_workflows": 16,
+    "requests_in_excluded_workflows": 533,
+    "selected_workflows": 8,
+    "selected_workflow_ids": [
+      "a4a37f5c-b160-43ed-8484-fe74572cb2c1",
+      "0a3d99c6-d130-49a8-a8bc-6cd5999cc3b4",
+      "9ace56cc-2454-4de2-8e39-d8fec7be6f44",
+      "c7d40b93-4ee9-4643-8a25-1bb1d5c00f06",
+      "0a8063da-eae2-4f84-8603-e71e8714ec23",
+      "78cfc686-0e24-4e8e-acb4-291198301286",
+      "6f7d28c6-6a8c-44b2-8ea9-0988c1096a2a",
+      "1c4c108b-fd1a-4251-8a23-20efeaefcae9"
+    ]
+  },
+  "workflows": [
+    {
+      "workflow_id": "a4a37f5c-b160-43ed-8484-fe74572cb2c1",
+      "calls": 43,
+      "max_context_tokens": 5265
+    },
+    {
+      "workflow_id": "0a3d99c6-d130-49a8-a8bc-6cd5999cc3b4",
+      "calls": 13,
+      "max_context_tokens": 2027
+    },
+    {
+      "workflow_id": "9ace56cc-2454-4de2-8e39-d8fec7be6f44",
+      "calls": 35,
+      "max_context_tokens": 3146
+    },
+    {
+      "workflow_id": "c7d40b93-4ee9-4643-8a25-1bb1d5c00f06",
+      "calls": 11,
+      "max_context_tokens": 1240
+    },
+    {
+      "workflow_id": "0a8063da-eae2-4f84-8603-e71e8714ec23",
+      "calls": 12,
+      "max_context_tokens": 1495
+    },
+    {
+      "workflow_id": "78cfc686-0e24-4e8e-acb4-291198301286",
+      "calls": 26,
+      "max_context_tokens": 3672
+    },
+    {
+      "workflow_id": "6f7d28c6-6a8c-44b2-8ea9-0988c1096a2a",
+      "calls": 38,
+      "max_context_tokens": 5691
+    },
+    {
+      "workflow_id": "1c4c108b-fd1a-4251-8a23-20efeaefcae9",
+      "calls": 16,
+      "max_context_tokens": 2803
+    }
+  ]
+}
